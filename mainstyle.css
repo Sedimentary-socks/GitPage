@@ -1,0 +1,34 @@
+.navbar {
+    position: relative;
+    background-color: darkgray;
+    width: 100%;
+    height: auto;
+}
+
+#navContainer {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navElement {
+    list-style-type: none;
+    float: left;
+    display: inline;
+}
+
+.navElementCh {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.navElementCh:hover {
+    background-color: black;
+    color: white;
+}
+
